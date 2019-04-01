@@ -12,4 +12,9 @@ open class GenericClassChild<Model>: GenericClass<Model> {
     internal override final func performAction(someModel: Model, someInternalInstance: InternalClass) {
         print("internal override action")
     }
+
+    public override final func publicMethod(someModel: Model) {
+        print("public override method")
+    }
+
 }

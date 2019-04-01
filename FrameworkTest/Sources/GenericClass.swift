@@ -15,4 +15,8 @@ open class GenericClass<Model> {
 
     }
 
+    public func publicMethod(someModel: Model) {
+        print("public method")
+    }
+
 }
