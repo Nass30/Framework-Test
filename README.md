@@ -4,7 +4,9 @@
 
 A simple swift framework with a GenericClass, a GenericClassChild, a struct Model, and an InternalClass.
 We have an internal function with an internal class and a generic model as paramaters in the GenericClass.
+
 We next implement a GenericClassChild and override this function by adding a 'final' mark.
+
 We next add this framework to an other [Framework](https://github.com/Nass30/Framework-Implementing-FrameworkTest) with 
 Carthage and the build of the framework fails with this error :
 

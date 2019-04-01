@@ -8,6 +8,7 @@
 
 import Foundation
 
+/// An internal class.
 internal class InternalClass {
 
     internal init() { }
